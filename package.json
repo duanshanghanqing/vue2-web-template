@@ -4,9 +4,9 @@
   "description": "this is a vue2 webpack4 app",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --progress --config ./build/webpack.dev.server.config.js",
     "dev": "webpack --progress --config ./build/webpack.dev.config.js",
     "build": "webpack --progress --config ./build/webpack.prod.config.js",
-    "start": "webpack-dev-server --progress --config ./build/webpack.dev.server.config.js",
     "lint": "eslint --ext .js,.vue src",
     "lint-fix": "eslint --fix --ext .js,.vue src"
   },
