@@ -25,7 +25,6 @@ const router = new Router({
     ]
 })
 
-// 路由拦截
 router.beforeEach((to, from, next) => {
     next()
 })
